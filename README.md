@@ -18,7 +18,12 @@ https://demoqa.com/automation-practice-form
 
 ---
 
-## Estructura del proyecto
+## Documentación
+
+La documentación del plan de pruebas y análisis del formulario se encuentra disponible en el siguiente archivo:
+
+- 📄 `docs/Plan_de_Pruebas_Formulario_Registro_DemoQA.pdf`
+
 
 
 ---
