@@ -24,14 +24,22 @@ https://demoqa.com/automation-practice-form
 ---
 
 ## Estrategia de pruebas
-Se aplicaron técnicas de pruebas de caja negra, tales como:
-- Análisis de valores límite
-- Pruebas combinatorias
+Técnicas de diseño de pruebas utilizadas
+Partición de Equivalencia: Consiste en dividir los datos de entrada en grupos (válidos e inválidos) que se espera que el sistema trate de la misma manera.
+Email válido vs email inválido (CF-001 / CF-003)
+Mobile Number válido vs inválido (CF-001 / CF-004)
+Formulario con campos obligatorios completos vs incompletos (CF-001 / CF-002)
+Justificación: Se seleccionaron valores representativos de cada grupo para reducir la cantidad de pruebas sin perder cobertura funcional.
+Pruebas de Caja Negra: Se valida el comportamiento del sistema sin considerar la lógica interna o el código fuente.
+En todos los casos de prueba, ya que el formulario se evaluó únicamente desde la perspectiva del usuario final.
+Justificación El objetivo fue validar la funcionalidad observable del formulario, independientemente de su implementación interna.
+Pruebas Positivas (Happy Path): Validan que el sistema funcione correctamente cuando se ingresan datos válidos.
+Registro exitoso (CF-001)
+Registro con hobbies seleccionados (CF-006)
+Registro sin State y City (CF-007)
+Carga exitosa de archivo (CF-008)
+Justificación: Permiten asegurar que el flujo principal del formulario funciona correctamente bajo condiciones esperadas.
 
-Los escenarios funcionales fueron definidos previamente y posteriormente automatizados
-como pruebas end-to-end.
-
-Durante la automatización se identificaron comportamientos inconsistentes del sitio bajo prueba, por lo que se ajustaron las esperas y validaciones para garantizar estabilidad multi-navegador.
 
 ---
 
