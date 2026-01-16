@@ -30,9 +30,11 @@ Email válido vs email inválido (CF-001 / CF-003)
 Mobile Number válido vs inválido (CF-001 / CF-004)
 Formulario con campos obligatorios completos vs incompletos (CF-001 / CF-002)
 Justificación: Se seleccionaron valores representativos de cada grupo para reducir la cantidad de pruebas sin perder cobertura funcional.
+
 Pruebas de Caja Negra: Se valida el comportamiento del sistema sin considerar la lógica interna o el código fuente.
 En todos los casos de prueba, ya que el formulario se evaluó únicamente desde la perspectiva del usuario final.
 Justificación El objetivo fue validar la funcionalidad observable del formulario, independientemente de su implementación interna.
+
 Pruebas Positivas (Happy Path): Validan que el sistema funcione correctamente cuando se ingresan datos válidos.
 Registro exitoso (CF-001)
 Registro con hobbies seleccionados (CF-006)
